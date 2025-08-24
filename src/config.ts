@@ -22,7 +22,7 @@ export const siteConfig = {
         "A lightweight, modular C++ game engine focused on 2D rendering, input, audio, and a simple UI layer — with interchangeable platform backends (GLFW or SDL) and a modern OpenGL renderer.",
       link: "https://github.com/FyX0X/LittleEngine-Template",
       skills: ["C++", "OpenGL", "CMake"],
-      image: "./portfolio/assets/images/littleengine.png",
+      image: "./assets/images/littleengine.png",
     },
     {
       name: "GeneVault",
@@ -30,7 +30,7 @@ export const siteConfig = {
         "A Python-based software solution for encoding, encrypting, and storing data in DNA sequences. ",
       link: "https://github.com/FyX0X/GeneVault",
       skills: ["Python", "AES256", "TCP/IP networking"],
-      image: "./portfolio/assets/images/genevault.png",
+      image: "./assets/images/genevault.png",
     },
     {
       name: "RaceCar AI",
@@ -38,7 +38,7 @@ export const siteConfig = {
         "This project implements a self-driving car simulation using the NEAT (NeuroEvolution of Augmenting Topologies) algorithm.",
       link: "https://github.com/FyX0X/RaceCar_AI",
       skills: ["Python", "Machine Learning", "NEAT"],
-      image: "./portfolio/assets/images/racecar_ai.png",
+      image: "./assets/images/racecar_ai.png",
     },
     {
       name: "MazeProject",
@@ -46,7 +46,7 @@ export const siteConfig = {
         "MazeProject is a Windows Forms application for generating, visualizing, solving, and saving mazes.",
       link: "https://github.com/FyX0X/MazeProject",
       skills: ["C#", ".NET", "Algorithms"],
-      image: "./portfolio/assets/images/mazeproject.png",
+      image: "./assets/images/mazeproject.png",
     },
     {
       name: "Moving Pendulum Simulation",
@@ -54,7 +54,7 @@ export const siteConfig = {
         "A physics simulation project that plots the motion of a pendulum calculated using numerical methods against real world data.",
       link: "https://github.com/FyX0X/SimulationProjet1",
       skills: ["Python", "Numpy", "Matplotlib", "Data Analysis"],
-      image: "./portfolio/assets/images/simulationprojet1.png",
+      image: "./assets/images/simulationprojet1.png",
     },
     {
       name: "Flappy Bird NEAT",
@@ -62,7 +62,7 @@ export const siteConfig = {
         "Flappy Bird NEAT is a project that uses NEAT algorithm to train an AI agent to play the Flappy Bird game.",
       link: "https://github.com/FyX0X/FlappyBird_NEAT",
       skills: ["Python", "TensorFlow", "NEAT"],
-      image: "./portfolio/assets/images/flappybirdneat.png",
+      image: "./assets/images/flappybirdneat.png",
     },
   ],
   experience: [

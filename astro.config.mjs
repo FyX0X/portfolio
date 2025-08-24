@@ -8,6 +8,6 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
 
-  site: 'https://fyx0x.github.io/portfolio',
-  base: '/portfolio/',
+  site: 'https://fyx0x.github.io/',
+  base: '/portfolio',
 });
