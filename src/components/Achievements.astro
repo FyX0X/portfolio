@@ -5,8 +5,8 @@ const hasAchievements = siteConfig.achievements && siteConfig.achievements.lengt
 
 {hasAchievements && (
   <section id="achievements" class="p-8 sm:p-12 md:p-16 lg:p-24">
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
-      <div class="lg:col-span-4">
+        <div class="grid grid-cols-1 gap-8 lg:gap-16 items-start">
+          <!-- Full-width heading -->
         <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
           Achievements
         </h2>
@@ -15,7 +15,9 @@ const hasAchievements = siteConfig.achievements && siteConfig.achievements.lengt
           style={`background-color: ${siteConfig.accentColor}`}
         />
       </div>
-      <div class="lg:col-span-8 space-y-6">
+      
+      <!-- Grid of projects below -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {siteConfig.achievements.map((achieve) => (
           <div class="p-4 rounded-xl shadow bg-white">
             <h3 class="text-xl font-semibold">{achieve.title}</h3>
