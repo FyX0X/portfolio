@@ -93,14 +93,14 @@ export const siteConfig = {
   ],
     achievements: [
     {
-      title: "Mathematics Olympiad Finalist TODO==================",
+      title: "European Olympiad of Experimental Science",
       year: "2023",
-      description: "Reached finals in the National Mathematics Olympiad."
+      description: "Team awarded a silver medal representing Belgium."
     },
     {
-      title: "Hackathon Winner",
+      title: "European Physics Olympiad",
       year: "2024",
-      description: "Won 1st place at XYZ Hackathon for AI-powered project."
+      description: "Participated in the European Physics Olympiad."
     }
   ],
 };
