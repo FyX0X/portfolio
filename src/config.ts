@@ -48,6 +48,22 @@ export const siteConfig = {
       skills: ["C#", ".NET", "Algorithms"],
       image: "./assets/images/mazeproject.png",
     },
+    {
+      name: "Moving Pendulum Simulation",
+      description:
+        "A physics simulation project that plots the motion of a pendulum calculated using numerical methods against real world data.",
+      link: "https://github.com/FyX0X/SimulationProjet1",
+      skills: ["Python", "Numpy", "Matplotlib", "Data Analysis"],
+      image: "./assets/images/simulationprojet1.png",
+    },
+    {
+      name: "Flappy Bird NEAT",
+      description:
+        "Flappy Bird NEAT is a project that uses NEAT algorithm to train an AI agent to play the Flappy Bird game.",
+      link: "https://github.com/FyX0X/FlappyBird_NEAT",
+      skills: ["Python", "TensorFlow", "NEAT"],
+      image: "./assets/images/flappybirdneat.png",
+    },
   ],
   experience: [
     {
@@ -101,6 +117,11 @@ export const siteConfig = {
       title: "European Physics Olympiad",
       year: "2024",
       description: "Participated in the European Physics Olympiad."
+    },
+    {
+      title: "Belgian Physics Olympiad",
+      year: "2023 & 2024",
+      description: "Awarded 2nd place in the Belgian Physics Olympiad both years."
     }
   ],
 };
