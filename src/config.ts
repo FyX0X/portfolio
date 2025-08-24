@@ -1,92 +1,106 @@
+import type { datetimeRegex } from "astro:schema";
+
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Martin Ergo",
+  title: "Engineering Student",
+  description: "Portfolio website of Martin Ergo",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "martinergo06@gmail.com",
+    linkedin: "https://www.linkedin.com/in/martin-ergo-974661299/",
+    //twitter: "https://x.com/username",
+    github: "https://github.com/FyX0X",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I am an engineering student with a strong interest in applied mathematics, physics, and computer science. I enjoy building projects that combine theory with practice, from game engines and simulations to machine learning and secure networking. Passionate about problem solving, I’m always looking to learn new technologies and apply them to challenging projects.",
+
+  skills: ["C++", "Python", "C#", "OpenGL", "Git", "CMake", "Numpy"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "LittleEngine",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A lightweight, modular C++ game engine focused on 2D rendering, input, audio, and a simple UI layer — with interchangeable platform backends (GLFW or SDL) and a modern OpenGL renderer.",
+      link: "https://github.com/FyX0X/LittleEngine-Template",
+      skills: ["C++", "OpenGL", "CMake"],
+      image: "./assets/images/littleengine.png",
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "GeneVault",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A Python-based software solution for encoding, encrypting, and storing data in DNA sequences. ",
+      link: "https://github.com/FyX0X/GeneVault",
+      skills: ["Python", "AES256", "TCP/IP networking"],
+      image: "./assets/images/genevault.png",
     },
     {
-      name: "ExtensionKit",
+      name: "RaceCar AI",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "This project implements a self-driving car simulation using the NEAT (NeuroEvolution of Augmenting Topologies) algorithm.",
+      link: "https://github.com/FyX0X/RaceCar_AI",
+      skills: ["Python", "Machine Learning", "NEAT"],
+      image: "./assets/images/racecar_ai.png",
+    },
+    {
+      name: "MazeProject",
+      description:
+        "MazeProject is a Windows Forms application for generating, visualizing, solving, and saving mazes.",
+      link: "https://github.com/FyX0X/MazeProject",
+      skills: ["C#", ".NET", "Algorithms"],
+      image: "./assets/images/mazeproject.png",
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Tremplin - UCLouvain",
+      title: "Tutor for Engineering Entrance Prep",
+      dateRange: "April 2025 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Tutored high school students preparing for the Engineering entrance exam at UCLouvain.",
+        "Explained key concepts in math and guided students through practice problems."
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Self Employed",
+      title: "Private Tutor",
+      dateRange: "Dec 2024 - Present",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Provide personalized tutoring in Math, Physics, Chemistry and Biology for high school and early university students.",
+        "Adapt teaching methods to each student’s learning pace and goals."
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Catholic University of Louvain",
+      //logo: require("./assets/images/uclouvainLogo.png"),
+      degree: "Bachelor of Engineering (minor in Applied Mathematics)",
+      dataRange: "September 2024 - Present (expected June 2027)",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
+        "Coursework includes numerical analysis, mathematics, and physics",
+        "Focusing on applied mathematics, numerical methods, and their applications in engineering and scientific computing."
+      ]
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Catholic University of Louvain",
+      //logo: require("./assets/images/uclouvainLogo.png"),
+      degree: "Bachelor of Science in Physics",
+      dataRange: "September 2025 - Present (expected June 2027)",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
+        "Studying fundamental physics and mathematical methods with applications in modeling and simulation.",
+        "Core topics: classical mechanics, electromagnetism, and quantum physics"
+      ]
     },
+  ],
+    achievements: [
+    {
+      title: "Mathematics Olympiad Finalist TODO==================",
+      year: "2023",
+      description: "Reached finals in the National Mathematics Olympiad."
+    },
+    {
+      title: "Hackathon Winner",
+      year: "2024",
+      description: "Won 1st place at XYZ Hackathon for AI-powered project."
+    }
   ],
 };

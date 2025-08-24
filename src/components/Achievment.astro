@@ -1,0 +1,29 @@
+---
+import { siteConfig } from "../config";
+const hasAchievements = siteConfig.achievements && siteConfig.achievements.length > 0;
+---
+
+{hasAchievements && (
+  <section id="achievements" class="p-8 sm:p-12 md:p-16 lg:p-24">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+      <div class="lg:col-span-4">
+        <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
+          Achievements
+        </h2>
+        <div
+          class="w-[75px] h-[5px] mt-2 rounded-full"
+          style={`background-color: ${siteConfig.accentColor}`}
+        />
+      </div>
+      <div class="lg:col-span-8 space-y-6">
+        {siteConfig.achievements.map((achieve) => (
+          <div class="p-4 rounded-xl shadow bg-white">
+            <h3 class="text-xl font-semibold">{achieve.title}</h3>
+            <p class="text-sm text-gray-600">{achieve.year}</p>
+            <p class="mt-2">{achieve.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+)}

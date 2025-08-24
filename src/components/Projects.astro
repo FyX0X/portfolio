@@ -70,6 +70,9 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                             {project.name}
                           </h3>
                         </div>
+                        {project.image && (
+                          <img src={project.image} alt={project.name} class="rounded-xl shadow mb-4" />
+                        )}
 
                         <p
                           class={`text-base sm:text-lg text-gray-600 leading-relaxed ${project.link ? "pr-12 sm:pr-14 md:pr-16" : ""}`}
