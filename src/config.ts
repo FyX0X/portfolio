@@ -57,12 +57,12 @@ export const siteConfig = {
       image: "./assets/images/simulationprojet1.png",
     },
     {
-      name: "Flappy Bird NEAT",
+      name: "WaveSim",
       description:
-        "Flappy Bird NEAT is a project that uses NEAT algorithm to train an AI agent to play the Flappy Bird game.",
-      link: "https://github.com/FyX0X/FlappyBird_NEAT",
-      skills: ["Python", "TensorFlow", "NEAT"],
-      image: "./assets/images/flappybirdneat.png",
+        "WaveSim is a project that simulates wave propagation using numerical methods.",
+      link: "https://github.com/FyX0X/WaveSim",
+      skills: ["C++", "SFML", "Numerical Methods"],
+      image: "./assets/images/wavesim.png",
     },
   ],
   experience: [
